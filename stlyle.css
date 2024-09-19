@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* .navbar{
+     background: rgb(64, 54, 54);
+    color: white;
+} 
+    */
+
+
+.navbar-blur {
+      background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+      backdrop-filter: blur(10px); /* Blur effect */
+      -webkit-backdrop-filter: blur(10px); /* Safari support */
+    }
+    .navbar-container {
+      background: transparent; /* Make sure the background of the container itself is transparent */
+    }
+  
+
+
+@media (min-width: 992px) {
+    .navbar-center {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+/* ============================================= */
+
+.hero-section {
+    height: 700px;
+    background: url('./hero-section.jpeg') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .hero-content {
+    text-align: left;
+  }
+  .hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+  }
+  .hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  .hero-content .btn {
+    font-size: 1rem;
+  }
+  @media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 2.5rem;
+    }
+    .hero-content p {
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 576px) {
+    .hero-content {
+      text-align: center;
+    }
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+    .hero-content p {
+      font-size: 0.875rem;
+    }
+    .hero-content .btn {
+      font-size: 0.875rem;
+    }
+  }
+
+/* ============================ */
+
+.hero_2{
+    justify-content: center;
+    align-items: center;
+   
+}
+.hero_2 h2 {
+    color: rgb(74, 114, 206);
+}
+.hero_2 h3 {
+    color: rgb(74, 114, 206);
+}
+.highlight {
+    background-color: #ff3399;
+    border-radius: 120px 120px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 350px;
+    margin: 0 auto;
+   
+}
+.highlight img {
+    border-radius: 50%;
+}
+
+
+/* ============================== */
+
+  .service-card {
+    background: #fff;
+    padding: 80px 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.service-icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+.icon-blue {
+    color: #5a67d8;
+    
+}
+.icon-pink {
+    color: #ff007f;
+}
+.read-more-btn .btn-primary {
+    background-color: #ff007f;
+    border: none;
+}
+
+
+
+
+/* ====================================== */
+    .testimonial-card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .testimonial-card img {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        margin-right: 20px;
+      }
+      .testimonial-card h4 {
+        margin-top: 0;
+      }
